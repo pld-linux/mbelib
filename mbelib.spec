@@ -38,6 +38,7 @@ Static mbelib library.
 install -d build
 cd build
 %{cmake} ..
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
